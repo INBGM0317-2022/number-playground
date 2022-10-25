@@ -10,11 +10,11 @@ class Exercises(ABC):
     @abstractmethod
     def odd_numbers_between(start: int, end: int) -> set[int]:
         """
-        Returns the set of odd playground between start and end (inclusive).
+        Returns the set of odd integers between start and end (inclusive).
 
         :param start: the start of the interval
         :param end: the end of the interval
-        :return: the set of odd playground
+        :return: the set of odd integers
         """
 
     @staticmethod
@@ -31,30 +31,30 @@ class Exercises(ABC):
     @abstractmethod
     def prime_numbers_between(start: int, end: int) -> set[int]:
         """
-        Returns the set of odd playground between start and end (inclusive).
+        Returns the set of odd integers between start and end (inclusive).
 
         :param start: the start of the interval
         :param end: the end of the interval
-        :return: the set of odd playground
+        :return: the set of odd integers
         """
 
     @staticmethod
     @abstractmethod
     def squares_between(start: int, end: int) -> dict[int, int]:
         """
-        Returns a dictionary which maps the playground of interval [start, end] to their squares.
+        Returns a dictionary which maps the integers of interval [start, end] to their squares.
 
         :param start: the start of the interval
         :param end: the end of the interval
-        :return: the playground and their squares
+        :return: the integers and their squares
         """
 
     @staticmethod
     @abstractmethod
     def filter_primes(numbers: set[int]) -> set[int]:
         """
-        Returns a set which contains the prime playground of the given set.
+        Returns a set which contains the prime integers of the given set.
 
-        :param numbers: the playground
-        :return: the prime playground
+        :param numbers: the integers
+        :return: the prime integers
         """
