@@ -31,7 +31,7 @@ class Exercises(ABC):
     @abstractmethod
     def prime_numbers_between(start: int, end: int) -> set[int]:
         """
-        Returns the set of odd integers between start and end (inclusive).
+        Returns the set of prime integers between start and end (inclusive).
 
         :param start: the start of the interval
         :param end: the end of the interval
